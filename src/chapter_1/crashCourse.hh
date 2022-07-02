@@ -29,15 +29,15 @@ namespace FirstThenSecond = first::second;
 
 enum class PieceType
 {
-    King,
-    Queen,
-    Rook,
-    Pawn
+    PieceTypeKing,
+    PieceTypeQueen,
+    PieceTypeRook,
+    PieceTypePawn
 };
 
 void forFun()
 {
-    PieceType piece{PieceType::King};
+    PieceType piece{PieceType::PieceTypeKing};
 
     int age{12};
     float pi{3.14159};
