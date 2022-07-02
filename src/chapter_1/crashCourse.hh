@@ -27,8 +27,18 @@ namespace first
 
 namespace FirstThenSecond = first::second;
 
+enum class PieceType
+{
+    King,
+    Queen,
+    Rook,
+    Pawn
+};
+
 void forFun()
 {
+    PieceType piece{PieceType::King};
+
     int age{12};
     float pi{3.14159};
     cout << int(pi) << int(pi) << static_cast<int>(pi) << '\n';
