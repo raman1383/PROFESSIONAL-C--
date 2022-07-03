@@ -7,4 +7,8 @@ int main()
 	cout << "Hello, world !" << endl;
 
 	funFunction();
+
+	Employee mia;
+	mia.employeeNumber = 19;
+	mia.salary = 9000;
 }
