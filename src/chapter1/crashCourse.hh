@@ -67,4 +67,6 @@ void funFunction()
         cout << "It's a soldier " << endl;
         break;
     }
+
+    (fst::person1 == Courtiers::CourtiersKing) ? cout << "it's king \n" : cout << "it's not king\n";
 }
