@@ -29,8 +29,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": false,
-      "cwd": "c:/Users/ALL/PLs/C++/crashCourseC++/src",
-      "program": "c:/Users/ALL/PLs/C++/crashCourseC++/src/build/Debug/outDebug",
+      "cwd": "c:/Users/ALL/PLs/C++/PROFESSIONAL C++",
+      "program": "c:/Users/ALL/PLs/C++/PROFESSIONAL C++/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

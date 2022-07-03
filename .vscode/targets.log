@@ -6,7 +6,7 @@ make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --quest
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Sun Jul 03 00:19:25 2022
+# Make data base, printed on Sun Jul 03 17:44:11 2022
 
 # Variables
 
@@ -25,9 +25,9 @@ MD := mkdir
 # environment
 LOCALAPPDATA = C:\Users\ALL\AppData\Local
 # environment
-VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-ec6218f2-ab47-4ae5-b016-7402a062a721-sock
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-3cf0506d-4aa3-4dc9-9340-a88f1b11d0b1-sock
 # environment
-VSCODE_CWD = C:\Users\ALL\PLs\C++
+VSCODE_CWD = C:\Users\ALL\AppData\Local\Programs\Microsoft VS Code
 # environment
 CHOCOLATEYINSTALL = C:\ProgramData\chocolatey
 # environment
@@ -45,7 +45,7 @@ GOPATH = C:\Users\ALL\go
 # automatic
 @D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_9836_SRYKCQDMHQFPFFIT
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_13828_LAWXEUBCFRVADLOB
 # environment
 VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # default
@@ -73,7 +73,7 @@ MAKEFLAGS = pqrR
 # environment
 ONEDRIVE = C:\Users\ALL\OneDrive
 # makefile
-CURDIR := c:/Users/ALL/PLs/C++/crashCourseC++
+CURDIR := c:/Users/ALL/PLs/C++/PROFESSIONAL C++
 # environment
 VSCODE_PIPE_LOGGING = true
 # environment
@@ -101,7 +101,7 @@ MAKEFILE_LIST := Makefile
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
-VSCODE_PID = 9836
+VSCODE_PID = 13828
 # automatic
 ?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
 # makefile (from 'Makefile', line 48)
@@ -231,7 +231,7 @@ ALLUSERSPROFILE = C:\ProgramData
 # environment
 SESSIONNAME = Console
 # makefile (from 'Makefile', line 10)
-CXXFLAGS := -std=c++17 -Wall -Wextra -g
+CXXFLAGS := -std=c++2a -Wall -Wextra -g
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync load
 # environment
@@ -257,10 +257,10 @@ VCPKG_DEFAULT_TRIPLET = x64-windows
 
 # Directories
 
-# src (key c:/Users/ALL/PLs/C++/crashCourseC++/src, mtime 1656791310): 4 files, no impossibilities.
-# . (key c:/Users/ALL/PLs/C++/crashCourseC++, mtime 1656789025): 9 files, no impossibilities.
+# src (key c:/Users/ALL/PLs/C++/PROFESSIONAL C++/src, mtime 1656791441): 3 files, no impossibilities.
+# . (key c:/Users/ALL/PLs/C++/PROFESSIONAL C++, mtime 1656789025): 9 files, no impossibilities.
 
-# 13 files, no impossibilities in 2 directories.
+# 12 files, no impossibilities in 2 directories.
 
 # Implicit Rules
 
@@ -298,7 +298,7 @@ main.exe:
 # Not a target:
 Makefile:
 #  Implicit rule search has been done.
-#  Last modified 2022-07-02 09:51:56
+#  Last modified 2022-07-03 00:20:05
 #  File has been updated.
 #  Successfully updated.
 
@@ -371,12 +371,12 @@ run: all
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 19 / storage = 123 B / avg = 6 B
-# current buf: size = 8162 B / used = 123 B / count = 19 / avg = 6 B
+# strcache buffers: 1 (0) / strings = 18 / storage = 114 B / avg = 6 B
+# current buf: size = 8162 B / used = 114 B / count = 18 / avg = 6 B
 
-# strcache performance: lookups = 40 / hit rate = 52%
+# strcache performance: lookups = 39 / hit rate = 53%
 # hash-table stats:
-# Load=19/8192=0%, Rehash=0, Collisions=0/40=0%
-# Finished Make data base on Sun Jul 03 00:19:25 2022
+# Load=18/8192=0%, Rehash=0, Collisions=0/39=0%
+# Finished Make data base on Sun Jul 03 17:44:11 2022
 
  
