@@ -6,7 +6,7 @@ make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --quest
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Sun Jul 03 17:44:11 2022
+# Make data base, printed on Mon Jul 04 13:19:40 2022
 
 # Variables
 
@@ -25,7 +25,7 @@ MD := mkdir
 # environment
 LOCALAPPDATA = C:\Users\ALL\AppData\Local
 # environment
-VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-3cf0506d-4aa3-4dc9-9340-a88f1b11d0b1-sock
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-815e0982-b1d2-4027-9e2b-0c7f323aca71-sock
 # environment
 VSCODE_CWD = C:\Users\ALL\AppData\Local\Programs\Microsoft VS Code
 # environment
@@ -257,10 +257,10 @@ VCPKG_DEFAULT_TRIPLET = x64-windows
 
 # Directories
 
-# src (key c:/Users/ALL/PLs/C++/PROFESSIONAL C++/src, mtime 1656791441): 3 files, no impossibilities.
+# src (key c:/Users/ALL/PLs/C++/PROFESSIONAL C++/src, mtime 1656924320): 4 files, no impossibilities.
 # . (key c:/Users/ALL/PLs/C++/PROFESSIONAL C++, mtime 1656789025): 9 files, no impossibilities.
 
-# 12 files, no impossibilities in 2 directories.
+# 13 files, no impossibilities in 2 directories.
 
 # Implicit Rules
 
@@ -371,12 +371,12 @@ run: all
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 18 / storage = 114 B / avg = 6 B
-# current buf: size = 8162 B / used = 114 B / count = 18 / avg = 6 B
+# strcache buffers: 1 (0) / strings = 19 / storage = 123 B / avg = 6 B
+# current buf: size = 8162 B / used = 123 B / count = 19 / avg = 6 B
 
-# strcache performance: lookups = 39 / hit rate = 53%
+# strcache performance: lookups = 40 / hit rate = 52%
 # hash-table stats:
-# Load=18/8192=0%, Rehash=0, Collisions=0/39=0%
-# Finished Make data base on Sun Jul 03 17:44:11 2022
+# Load=19/8192=0%, Rehash=0, Collisions=0/40=0%
+# Finished Make data base on Mon Jul 04 13:19:40 2022
 
  

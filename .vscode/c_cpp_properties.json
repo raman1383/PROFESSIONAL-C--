@@ -1,7 +1,7 @@
 {
     "configurations": [
         {
-            "name": "windows-clang-x64",
+            "name": "clang-x64",
             "includePath": [
                 "${workspaceFolder}/**"
             ],
