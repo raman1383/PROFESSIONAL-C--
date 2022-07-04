@@ -30,4 +30,20 @@ int main()
 
 	std::optional<int> data1{getData(true)};
 	std::optional<int> data2{getData(false)}; //<utility>
+	cout << "data1.has_value = " << data1.has_value() << endl;
+	if (data2)
+	{
+		cout << "data2 has a value." << endl;
+	}
+
+	struct Point
+	{
+		double m_x, m_y, m_z;
+	};
+	Point point;
+	point.m_x = 1.0;
+	point.m_y = 2.0;
+	point.m_z = 3.0;
+	auto [x, y, z]{point};		 // order is important
+	cout << x << y << z << endl; // 1,2,3
 }

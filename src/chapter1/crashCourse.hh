@@ -93,3 +93,5 @@ std::optional<int> getData(bool giveIt)
     }
     return std::nullopt; // or simply return {};
 }
+
+//! executable, from main
