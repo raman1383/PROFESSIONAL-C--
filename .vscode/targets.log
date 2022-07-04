@@ -6,7 +6,7 @@ make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --quest
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Mon Jul 04 13:19:40 2022
+# Make data base, printed on Mon Jul 04 14:41:16 2022
 
 # Variables
 
@@ -25,7 +25,7 @@ MD := mkdir
 # environment
 LOCALAPPDATA = C:\Users\ALL\AppData\Local
 # environment
-VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-815e0982-b1d2-4027-9e2b-0c7f323aca71-sock
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-60b692e2-902e-429e-aeac-bddbf188f7a6-sock
 # environment
 VSCODE_CWD = C:\Users\ALL\AppData\Local\Programs\Microsoft VS Code
 # environment
@@ -377,6 +377,6 @@ run: all
 # strcache performance: lookups = 40 / hit rate = 52%
 # hash-table stats:
 # Load=19/8192=0%, Rehash=0, Collisions=0/40=0%
-# Finished Make data base on Mon Jul 04 13:19:40 2022
+# Finished Make data base on Mon Jul 04 14:41:16 2022
 
  
