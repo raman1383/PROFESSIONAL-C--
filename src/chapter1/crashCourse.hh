@@ -33,7 +33,7 @@ namespace first
 namespace fs = first::second;
 namespace fst = first::second::third;
 
-export struct Employee
+struct Employee
 {
     int employeeNumber;
     int salary;
