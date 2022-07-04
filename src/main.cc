@@ -1,10 +1,5 @@
 #include "chapter1/crashCourse.hh"
 
-[[nodiscard]] int func() // warning: ignoring return value
-{
-	return 212;
-}
-
 int main()
 {
 	using std::cout, std::cin, std::endl;
@@ -16,5 +11,7 @@ int main()
 	mia.employeeNumber = 19;
 	mia.salary = 9000;
 
-	func();
+	func(12, 2);
+	forceProgramTermination();
+	funct();
 }
