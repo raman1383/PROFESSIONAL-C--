@@ -2,7 +2,7 @@
 
 #pragma once
 #include <iostream>
-
+#include <optional>
 using std::cout, std::cin, std::endl, std::string;
 
 enum class Courtiers
@@ -77,4 +77,19 @@ void funFunction()
 [[nodiscard("Some explanation")]] int func(int value1, [[maybe_unused]] int value2)
 {
     return 212;
+}
+
+std::optional<int> getData(bool giveIt)
+{
+    /*
+    optional
+    removes the need to return “special” values from functions such as nullptr, end(), -1, EOF,
+    and so on. It also removes the need to write the function as return
+    */
+
+    if (giveIt)
+    {
+        return 42;
+    }
+    return std::nullopt; // or simply return {};
 }
