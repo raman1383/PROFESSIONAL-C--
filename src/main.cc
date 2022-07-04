@@ -1,7 +1,6 @@
-#include <iostream>
 #include "chapter1/crashCourse.hh"
 
-[[nodiscard]] int func()
+[[nodiscard]] int func() // warning: ignoring return value
 {
 	return 212;
 }
