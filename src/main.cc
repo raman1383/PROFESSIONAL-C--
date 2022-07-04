@@ -46,4 +46,9 @@ int main()
 	point.m_z = 3.0;
 	auto [x, y, z]{point};		 // order is important
 	cout << x << y << z << endl; // 1,2,3
+
+	looper();
+	makeSum({1, 2, 3, 4, 5, 6});
+
+	std::string myString = "Hello to the C++";
 }

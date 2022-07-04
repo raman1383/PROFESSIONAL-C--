@@ -2,7 +2,9 @@
 
 #pragma once
 #include <iostream>
+#include <initializer_list>
 #include <optional>
+
 using std::cout, std::cin, std::endl, std::string;
 
 enum class Courtiers
@@ -92,6 +94,45 @@ std::optional<int> getData(bool giveIt)
         return 42;
     }
     return std::nullopt; // or simply return {};
+}
+
+void looper()
+{
+    int x{};
+    while (x < 2)
+    {
+        cout << "while looping ! \n";
+        ++x;
+    }
+
+    int xx{};
+    do
+    {
+        cout << "do while ing ! \n";
+        ++xx;
+    } while (xx < 3);
+
+    for (int i = 0; i < 4; i++)
+    {
+        cout << "for looping ! \n";
+    }
+
+    std::array arr{1, 2, 3, 4, 5};
+    for (int i : arr)
+    {
+        cout << i << endl;
+    }
+}
+
+int makeSum(std::initializer_list<int> values)
+{
+    int total{0};
+    for (int value : values)
+    {
+        total += value;
+    }
+    cout << total << endl;
+    return total;
 }
 
 //! executable, from main
