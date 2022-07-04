@@ -2,7 +2,6 @@
 
 #pragma once
 #include <iostream>
-#include <cstdlib>
 
 using std::cout, std::cin, std::endl, std::string;
 
@@ -78,38 +77,4 @@ void funFunction()
 [[nodiscard("Some explanation")]] int func(int value1, [[maybe_unused]] int value2)
 {
     return 212;
-}
-
-[[noreturn]] void forceProgramTermination()
-{
-    std::exit(1); // Defined in <cstdlib>
-}
-
-[[deprecated("Unsafe method, please use xyz")]] void funct(){};
-
-void likelyUnlikely()
-{
-    int value{11};
-
-    if (value == 11) [[likely]]
-    {
-        cout << "Helps performance \n";
-    }
-    else [[unlikely]]
-    {
-        cout << "Helps performance \n";
-    }
-
-    switch (value)
-    {
-        [[likely]] case 1 :
-            // Do something ...
-            break;
-    case 2:
-        // Do something...
-        break;
-        [[unlikely]] case 12 :
-            // Do something...
-            break;
-    }
 }
