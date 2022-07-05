@@ -85,6 +85,12 @@ int main()
 	Employee anEmployee2{'J', 'D', 0, 80'000};
 	cout << anEmployee2.salary << endl;
 
+	/*
+		To prevent memory leaks, every call to new should be paired with a
+		call to delete, and every call to new[] should be paired with a call to delete[].
+		Not calling delete or delete[], or mismatching calls, results in memory leaks or
+		worse.
+	*/
 	int *myIntegerInFreeStore1{nullptr}; // declare uninitialized variable
 	myIntegerInFreeStore1 = new int;	 // allocate in free space
 	*myIntegerInFreeStore1 = 8;			 // initializing
