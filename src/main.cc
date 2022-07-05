@@ -63,4 +63,7 @@ int main()
 	cout << NS::get() << endl; // prints 20
 	cout << ::get() << endl;   // prints 10
 	cout << get() << endl;	   // prints 10
+
+	CircleStruct myCircle5{10, 10, 2.5};
+	CircleClass myCircle6{10, 10, 2.5};
 }

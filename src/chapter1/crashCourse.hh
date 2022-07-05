@@ -174,5 +174,21 @@ namespace NS
 {
     int get() { return 20; }
 }
+//
 
+struct CircleStruct
+{
+    int x, y;
+    double radius;
+};
+class CircleClass
+{
+public:
+    CircleClass(int x, int y, double radius)
+        : m_x{x}, m_y{y}, m_radius{radius} {}
+
+private:
+    int m_x, m_y;
+    double m_radius;
+};
 //! executable, from main
