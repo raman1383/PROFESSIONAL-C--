@@ -5,6 +5,8 @@
 #include <vector>
 #include "chapter1/crashCourse.hh"
 
+const double PI{3.141592653589793238462};
+
 int main()
 {
 	using std::cout, std::cin, std::endl;
@@ -114,4 +116,19 @@ int main()
 	cout << myVariableSizedArray[0] << myVariableSizedArray[1] << myVariableSizedArray[2] << endl;
 	delete[] myVariableSizedArray;
 	myVariableSizedArray = nullptr;
+
+	const int *ipp;
+	// SIMILAR, both const the value
+	int const *ip;
+	ipp = new int[10];
+	// ipp[4] = 5; // DOES NOT COMPILE!
+	ip = new int[10];
+	// ip[4] = 5; // DOES NOT COMPILE!
+
+	int *const iip{nullptr}; // initialization required
+	// iip = new int[10]; // DOES NOT COMPILE!
+	// iip[4] = 5;		   // Error: dereferencing a null pointer
+
+	int *const ippp{new int[10]};
+	ippp[4] = 5;
 }

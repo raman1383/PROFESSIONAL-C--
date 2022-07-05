@@ -1,14 +1,14 @@
 {
     "configurations": [
         {
-            "name": "clang-x64",
+            "name": "gcc",
             "includePath": [
                 "${workspaceFolder}/**"
             ],
-            "compilerPath": "C:/mingw64/bin/clang++.exe",
+            "compilerPath": "C:/mingw64/bin/gcc.exe",
             "cStandard": "c17",
-            "cppStandard": "c++20",
-            "intelliSenseMode": "windows-clang-x64",
+            "cppStandard": "gnu++20",
+            "intelliSenseMode": "windows-gcc-x64",
             "compilerArgs": [
                 "/std:c++20"
             ],
