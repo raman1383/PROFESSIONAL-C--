@@ -52,27 +52,9 @@ int main()
 
 	std::string myString = "Hello to the C++";
 
-	class AirlineTicket
-	{
-	public:
-		AirlineTicket(std::string name, int miles, bool elite)
-		{
-			this->m_hasEliteSuperRewardsStatus = elite;
-			this->m_numberOfMiles = miles;
-			this->m_passengerName = name;
-		};
-		~AirlineTicket();
-		double calculatePriceInDollars();
-		std::string getPassengerName();
-		void setPassengerName(std::string name);
-		int getNumberOfMiles();
-		void setNumberOfMiles(int miles);
-		bool hasEliteSuperRewardsStatus();
-		void setHasEliteSuperRewardsStatus(bool status);
-
-	private:
-		std::string m_passengerName;
-		int m_numberOfMiles;
-		bool m_hasEliteSuperRewardsStatus;
-	};
+	AirlineTicket myTicket;
+	myTicket.setPassengerName("Sherman T. SocketWrench");
+	myTicket.setNumberOfMiles(700);
+	double cost{myTicket.calculatePriceInDollars()};
+	cout << "This ticket will cost " << cost << endl;
 }
