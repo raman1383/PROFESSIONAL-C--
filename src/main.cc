@@ -59,10 +59,10 @@ int main()
 	cout << "This ticket will cost " << cost << endl;
 
 	Demo d;
-	cout << d.get() << endl;   // prints 5
-	cout << NS::get() << endl; // prints 20
-	cout << ::get() << endl;   // prints 10
-	cout << get() << endl;	   // prints 10
+	cout << d.get() << endl;   //  5
+	cout << NS::get() << endl; //  20
+	cout << ::get() << endl;   //  10
+	cout << get() << endl;	   //  10
 
 	CircleStruct myCircle5;
 	myCircle5.radius = 2.5;
