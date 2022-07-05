@@ -132,7 +132,8 @@ int main()
 	int *const ippp{new int[10]};
 	ippp[4] = 5;
 
-	int const *const ip4{nullptr};
+	int const *const ip41{nullptr};
 	// SIMILAR: const both ip4 itself and value
 	const int *const ip42{nullptr};
+	int const *const ip43{nullptr};
 }

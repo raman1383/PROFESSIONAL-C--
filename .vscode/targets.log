@@ -6,7 +6,7 @@ make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --quest
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Tue Jul 05 20:23:35 2022
+# Make data base, printed on Tue Jul 05 20:39:41 2022
 
 # Variables
 
@@ -25,7 +25,7 @@ MD := mkdir
 # environment
 LOCALAPPDATA = C:\Users\ALL\AppData\Local
 # environment
-VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-4f57a57a-5e6b-4271-a138-cd59531ab656-sock
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-3d19df56-8ab4-4356-9f28-8c89ab519012-sock
 # environment
 VSCODE_CWD = C:\Users\ALL\AppData\Local\Programs\Microsoft VS Code
 # environment
@@ -257,7 +257,7 @@ VCPKG_DEFAULT_TRIPLET = x64-windows
 
 # Directories
 
-# src (key c:/Users/ALL/PLs/C++/PROFESSIONAL C++/src, mtime 1657033965): 6 files, no impossibilities.
+# src (key c:/Users/ALL/PLs/C++/PROFESSIONAL C++/src, mtime 1657037091): 6 files, no impossibilities.
 # . (key c:/Users/ALL/PLs/C++/PROFESSIONAL C++, mtime 1656789025): 9 files, no impossibilities.
 
 # 15 files, no impossibilities in 2 directories.
@@ -377,6 +377,6 @@ run: all
 # strcache performance: lookups = 42 / hit rate = 52%
 # hash-table stats:
 # Load=20/8192=0%, Rehash=0, Collisions=0/42=0%
-# Finished Make data base on Tue Jul 05 20:23:35 2022
+# Finished Make data base on Tue Jul 05 20:39:41 2022
 
  
