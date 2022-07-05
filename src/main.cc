@@ -51,4 +51,29 @@ int main()
 	makeSum({1, 2, 3, 4, 5, 6});
 
 	std::string myString = "Hello to the C++";
+
+	class AirlineTicket
+	{
+	public:
+		AirlineTicket(std::string name, int miles, bool elite)
+		{
+			this->m_hasEliteSuperRewardsStatus = elite;
+			this->m_numberOfMiles = miles;
+			this->m_passengerName = name;
+		};
+		~AirlineTicket();
+		double calculatePriceInDollars();
+		std::string getPassengerName();
+		void setPassengerName(std::string name);
+		int getNumberOfMiles();
+		void setNumberOfMiles(int miles);
+		bool hasEliteSuperRewardsStatus();
+		void setHasEliteSuperRewardsStatus(bool status);
+
+	private:
+		std::string m_passengerName;
+		int m_numberOfMiles;
+		bool m_hasEliteSuperRewardsStatus;
+	};
+	`
 }
