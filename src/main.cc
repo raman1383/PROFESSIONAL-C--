@@ -72,6 +72,7 @@ int main()
 	CircleClass myCircle6{10, 10, 2.5};
 
 	int *myArray = new int[]{0, 1, 2, 3};
+	cout << myArray[2] << endl;
 	delete[] myArray;
 
 	Employee anEmployee{
@@ -82,18 +83,29 @@ int main()
 	};
 	// OR
 	Employee anEmployee2{'J', 'D', 0, 80'000};
+	cout << anEmployee2.salary << endl;
 
-	int *myIntegerInFreeStore{nullptr}; // declare uninitialized variable
-	myIntegerInFreeStore = new int;		// allocate in free space
-	*myIntegerInFreeStore = 8;			// initializing
+	int *myIntegerInFreeStore1{nullptr}; // declare uninitialized variable
+	myIntegerInFreeStore1 = new int;	 // allocate in free space
+	*myIntegerInFreeStore1 = 8;			 // initializing
 	int i{9};
-	int *myIntegerInFreeStore{&i};	// pointing to Address of i
-	delete myIntegerInFreeStore;	// deallocate in free space
-	myIntegerInFreeStore = nullptr; // prevent using after deallocation
+	int *myIntegerInFreeStore2{&i};	 // pointing to Address of i
+	delete myIntegerInFreeStore2;	 // deallocate in free space
+	myIntegerInFreeStore2 = nullptr; // prevent using after deallocation
 
 	Employee *anEmployee3{&anEmployee2}; // pointing to address of anEmployee2 by variable anEmployee3
 	(*anEmployee3).employeeNumber;		 // dereference then access
 	// OR
-	anEmployee3->employeeNumber; // dereference and access
+	int en3 = anEmployee3->employeeNumber; // dereference and access
+	cout << en3 << endl;
 	bool isValidSalary{(anEmployee3 != nullptr && anEmployee3->salary > 0)};
+
+	int arraySize{5};							   // on the stack
+	int *myVariableSizedArray{new int[arraySize]}; // Dynamically Allocated Arrays in free store(heap)
+	myVariableSizedArray[0] = 10;
+	myVariableSizedArray[1] = 20;
+	myVariableSizedArray[2] = 30;
+	cout << myVariableSizedArray[0] << myVariableSizedArray[1] << myVariableSizedArray[2] << endl;
+	delete[] myVariableSizedArray;
+	myVariableSizedArray = nullptr;
 }
