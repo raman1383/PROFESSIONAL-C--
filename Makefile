@@ -64,6 +64,8 @@ OBJECTS		:= $(SOURCES:.cpp=.o)
 
 OUTPUTMAIN	:= $(call FIXPATH,$(OUTPUT)/$(MAIN))
 
+
+
 all: $(OUTPUT) $(MAIN)
 	@echo Executing 'all' complete!
 

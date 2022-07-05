@@ -6,7 +6,7 @@ make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --quest
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Mon Jul 04 15:17:34 2022
+# Make data base, printed on Tue Jul 05 08:07:17 2022
 
 # Variables
 
@@ -25,7 +25,7 @@ MD := mkdir
 # environment
 LOCALAPPDATA = C:\Users\ALL\AppData\Local
 # environment
-VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-290e1448-717e-4eb0-aac3-a731236494b3-sock
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-51e90158-ca78-4e8d-aad4-2bf86af8e5f5-sock
 # environment
 VSCODE_CWD = C:\Users\ALL\AppData\Local\Programs\Microsoft VS Code
 # environment
@@ -45,7 +45,7 @@ GOPATH = C:\Users\ALL\go
 # automatic
 @D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_19244_PJGEEUTFWADVRCTD
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_9748_AGZHHXWYWSIKAEVC
 # environment
 VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # default
@@ -101,7 +101,7 @@ MAKEFILE_LIST := Makefile
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
-VSCODE_PID = 19244
+VSCODE_PID = 9748
 # automatic
 ?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
 # makefile (from 'Makefile', line 48)
@@ -139,7 +139,7 @@ MAKELEVEL := 0
 # default
 MAKE = $(MAKE_COMMAND)
 # environment
-PATH = C:\Program Files\Python310\Scripts\;C:\Program Files\Python310\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Users\ALL\.cargo\bin;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Calibre2\;C:\Program Files\Git\cmd;C:\Python310;C:\Program Files\Vim\vim82;C:\Program Files\Go\bin;C:\mingw64\bin;C:\Program Files\CMake\bin;C:\vcpkg;C:\Users\ALL\.cargo\bin;C:\Users\ALL\AppData\Roaming\npm;C:\Users\ALL\AppData\Local\Programs\Microsoft VS Code\bin;C:\tools\neovim\nvim-win64\bin;C:\Program Files\JetBrains\PyCharm Community Edition 2022.1.1\bin;;C:\Users\ALL\go\bin;C:\Program Files\Go\bin;C:\vcpkg;C:\MinGW\bin;C:\msys64\mingw64\bin;
+PATH = C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files\Python310\Scripts\;C:\Program Files\Python310\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Users\ALL\.cargo\bin;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Calibre2\;C:\Program Files\Git\cmd;C:\Python310;C:\Program Files\Vim\vim82;C:\Program Files\Go\bin;C:\mingw64\bin;C:\Program Files\CMake\bin;C:\vcpkg;C:\Users\ALL\.cargo\bin;C:\Users\ALL\AppData\Roaming\npm;C:\Users\ALL\AppData\Local\Programs\Microsoft VS Code\bin;C:\tools\neovim\nvim-win64\bin;C:\Program Files\JetBrains\PyCharm Community Edition 2022.1.1\bin;;C:\Users\ALL\go\bin;C:\Program Files\Go\bin;C:\vcpkg;C:\MinGW\bin;C:\msys64\mingw64\bin;
 # environment
 ZES_ENABLE_SYSMAN = 1
 # environment
@@ -257,7 +257,7 @@ VCPKG_DEFAULT_TRIPLET = x64-windows
 
 # Directories
 
-# src (key c:/Users/ALL/PLs/C++/PROFESSIONAL C++/src, mtime 1656931645): 5 files, no impossibilities.
+# src (key c:/Users/ALL/PLs/C++/PROFESSIONAL C++/src, mtime 1656991292): 5 files, no impossibilities.
 # . (key c:/Users/ALL/PLs/C++/PROFESSIONAL C++, mtime 1656789025): 9 files, no impossibilities.
 
 # 14 files, no impossibilities in 2 directories.
@@ -292,13 +292,13 @@ main.exe:
 # | := 
 # variable set hash-table stats:
 # Load=8/32=25%, Rehash=0, Collisions=4/18=22%
-#  recipe to execute (from 'Makefile', line 74):
+#  recipe to execute (from 'Makefile', line 76):
 	$(CXX) $(CXXFLAGS) $(INCLUDES) -o $(OUTPUTMAIN) $(OBJECTS) $(LFLAGS) $(LIBS)
 
 # Not a target:
 Makefile:
 #  Implicit rule search has been done.
-#  Last modified 2022-07-03 00:20:05
+#  Last modified 2022-07-05 07:51:37
 #  File has been updated.
 #  Successfully updated.
 
@@ -307,7 +307,7 @@ clean:
 #  Implicit rule search has not been done.
 #  File does not exist.
 #  File has not been updated.
-#  recipe to execute (from 'Makefile', line 85):
+#  recipe to execute (from 'Makefile', line 87):
 	$(RM) $(OUTPUTMAIN)
 	$(RM) $(call FIXPATH,$(OBJECTS))
 	@echo Cleanup complete!
@@ -316,7 +316,7 @@ clean:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
-#  recipe to execute (from 'Makefile', line 81):
+#  recipe to execute (from 'Makefile', line 83):
 	$(CXX) $(CXXFLAGS) $(INCLUDES) -c $<  -o $@
 
 # Not a target:
@@ -330,7 +330,7 @@ output:
 #  Last modified 2022-07-02 09:51:56
 #  File has been updated.
 #  Successfully updated.
-#  recipe to execute (from 'Makefile', line 71):
+#  recipe to execute (from 'Makefile', line 73):
 	$(MD) $(OUTPUT)
 
 all: output main.exe
@@ -341,14 +341,14 @@ all: output main.exe
 #  Needs to be updated (-q is set).
 # variable set hash-table stats:
 # Load=0/32=0%, Rehash=0, Collisions=0/10=0%
-#  recipe to execute (from 'Makefile', line 68):
+#  recipe to execute (from 'Makefile', line 70):
 	@echo Executing 'all' complete!
 
 run: all
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
-#  recipe to execute (from 'Makefile', line 90):
+#  recipe to execute (from 'Makefile', line 92):
 	./$(OUTPUTMAIN)
 	@echo Executing 'run: all' complete!
 
@@ -377,6 +377,6 @@ run: all
 # strcache performance: lookups = 41 / hit rate = 53%
 # hash-table stats:
 # Load=19/8192=0%, Rehash=0, Collisions=0/41=0%
-# Finished Make data base on Mon Jul 04 15:17:34 2022
+# Finished Make data base on Tue Jul 05 08:07:17 2022
 
  

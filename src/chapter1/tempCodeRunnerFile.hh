@@ -1,1 +1,0 @@
-[[deprecated("Unsafe method, please use xyz")]] void funct();

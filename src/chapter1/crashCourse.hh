@@ -37,12 +37,6 @@ namespace first
 namespace fs = first::second;
 namespace fst = first::second::third;
 
-struct Employee
-{
-    int employeeNumber;
-    int salary;
-};
-
 void funFunction()
 {
     cout << first::firstX << fs::secondX << fst::thirdX << endl; // 123
@@ -191,4 +185,14 @@ private:
     int m_x, m_y;
     double m_radius;
 };
+
+export struct Employee
+{
+    char firstInitial;
+    char lastInitial;
+    int employeeNumber;
+    int salary;
+};
+//! Variables that are stack allocated do not need to be deallocated (deleted) by the programmer; it happens automatically
+
 //! executable, from main

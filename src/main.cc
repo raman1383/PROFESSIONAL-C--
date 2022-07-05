@@ -70,4 +70,19 @@ int main()
 	myCircle5.y = 10;
 	// OR
 	CircleClass myCircle6{10, 10, 2.5};
+
+	int *myArray = new int[]{0, 1, 2, 3};
+	delete[] myArray;
+
+	Employee anEmployee{
+		.firstInitial = 'J',
+		.lastInitial = 'D',
+		.employeeNumber = 42,
+		.salary = {80'000},
+	};
+	// OR
+	Employee anEmployee2{'J', 'D', 0, 80'000};
+
+	std::vector<int> xxx{1, 23, 4, 2, 56, 3, 3};
+	cout << xxx[1] << endl;
 }
