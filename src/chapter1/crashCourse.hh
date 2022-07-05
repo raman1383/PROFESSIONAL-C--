@@ -161,4 +161,18 @@ private:
     bool m_hasEliteSuperRewardsStatus{false};
 };
 
+// scopes
+class Demo
+{
+public:
+    int get() { return 5; }
+};
+
+int get() { return 10; }
+
+namespace NS
+{
+    int get() { return 20; }
+}
+
 //! executable, from main
