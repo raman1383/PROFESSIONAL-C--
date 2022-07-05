@@ -64,6 +64,10 @@ int main()
 	cout << ::get() << endl;   // prints 10
 	cout << get() << endl;	   // prints 10
 
-	CircleStruct myCircle5{10, 10, 2.5};
+	CircleStruct myCircle5;
+	myCircle5.radius = 2.5;
+	myCircle5.x = 10;
+	myCircle5.y = 10;
+	// OR
 	CircleClass myCircle6{10, 10, 2.5};
 }
