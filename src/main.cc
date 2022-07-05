@@ -125,10 +125,14 @@ int main()
 	ip = new int[10];
 	// ip[4] = 5; // DOES NOT COMPILE!
 
-	int *const iip{nullptr}; // initialization required
+	int *const iip{nullptr}; // initialization required; const the iip itself
 	// iip = new int[10]; // DOES NOT COMPILE!
 	// iip[4] = 5;		   // Error: dereferencing a null pointer
 
 	int *const ippp{new int[10]};
 	ippp[4] = 5;
+
+	int const *const ip4{nullptr};
+	// SIMILAR: const both ip4 itself and value
+	const int *const ip42{nullptr};
 }
