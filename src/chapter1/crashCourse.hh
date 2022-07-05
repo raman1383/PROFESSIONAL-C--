@@ -188,6 +188,13 @@ private:
 
 export struct Employee
 {
+    int getEmployee()
+    {
+        firstInitial = 'r';
+        lastInitial = 'e';
+        employeeNumber = 12;
+        salary = 90000;
+    };
     char firstInitial;
     char lastInitial;
     int employeeNumber;

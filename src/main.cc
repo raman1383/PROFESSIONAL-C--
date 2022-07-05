@@ -90,4 +90,10 @@ int main()
 	int *myIntegerInFreeStore{&i};	// pointing to Address of i
 	delete myIntegerInFreeStore;	// deallocate in free space
 	myIntegerInFreeStore = nullptr; // prevent using after deallocation
+
+	Employee *anEmployee3{&anEmployee2}; // pointing to address of anEmployee2 by variable anEmployee3
+	(*anEmployee3).employeeNumber;		 // dereference then access
+	// OR
+	anEmployee3->employeeNumber; // dereference and access
+	bool isValidSalary{(anEmployee3 != nullptr && anEmployee3->salary > 0)};
 }
