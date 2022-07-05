@@ -83,6 +83,11 @@ int main()
 	// OR
 	Employee anEmployee2{'J', 'D', 0, 80'000};
 
-	std::vector<int> xxx{1, 23, 4, 2, 56, 3, 3};
-	cout << xxx[1] << endl;
+	int *myIntegerInFreeStore{nullptr}; // declare uninitialized variable
+	myIntegerInFreeStore = new int;		// allocate in free space
+	*myIntegerInFreeStore = 8;			// initializing
+	int i{9};
+	int *myIntegerInFreeStore{&i};	// pointing to Address of i
+	delete myIntegerInFreeStore;	// deallocate in free space
+	myIntegerInFreeStore = nullptr; // prevent using after deallocation
 }

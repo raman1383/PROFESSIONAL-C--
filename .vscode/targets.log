@@ -6,7 +6,7 @@ make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --quest
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Tue Jul 05 08:07:17 2022
+# Make data base, printed on Tue Jul 05 08:30:47 2022
 
 # Variables
 
@@ -25,7 +25,7 @@ MD := mkdir
 # environment
 LOCALAPPDATA = C:\Users\ALL\AppData\Local
 # environment
-VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-51e90158-ca78-4e8d-aad4-2bf86af8e5f5-sock
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-da1a0ba5-e6e4-4a24-9bfb-3791e5ec32c5-sock
 # environment
 VSCODE_CWD = C:\Users\ALL\AppData\Local\Programs\Microsoft VS Code
 # environment
@@ -45,7 +45,7 @@ GOPATH = C:\Users\ALL\go
 # automatic
 @D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_9748_AGZHHXWYWSIKAEVC
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_16848_LMFBZLNQFNWSFYMB
 # environment
 VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # default
@@ -101,7 +101,7 @@ MAKEFILE_LIST := Makefile
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
-VSCODE_PID = 9748
+VSCODE_PID = 16848
 # automatic
 ?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
 # makefile (from 'Makefile', line 48)
@@ -257,7 +257,7 @@ VCPKG_DEFAULT_TRIPLET = x64-windows
 
 # Directories
 
-# src (key c:/Users/ALL/PLs/C++/PROFESSIONAL C++/src, mtime 1656991292): 5 files, no impossibilities.
+# src (key c:/Users/ALL/PLs/C++/PROFESSIONAL C++/src, mtime 1656992851): 5 files, no impossibilities.
 # . (key c:/Users/ALL/PLs/C++/PROFESSIONAL C++, mtime 1656789025): 9 files, no impossibilities.
 
 # 14 files, no impossibilities in 2 directories.
@@ -371,12 +371,12 @@ run: all
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 19 / storage = 123 B / avg = 6 B
-# current buf: size = 8162 B / used = 123 B / count = 19 / avg = 6 B
+# strcache buffers: 1 (0) / strings = 20 / storage = 145 B / avg = 7 B
+# current buf: size = 8162 B / used = 145 B / count = 20 / avg = 7 B
 
-# strcache performance: lookups = 41 / hit rate = 53%
+# strcache performance: lookups = 41 / hit rate = 51%
 # hash-table stats:
-# Load=19/8192=0%, Rehash=0, Collisions=0/41=0%
-# Finished Make data base on Tue Jul 05 08:07:17 2022
+# Load=20/8192=0%, Rehash=0, Collisions=0/41=0%
+# Finished Make data base on Tue Jul 05 08:30:47 2022
 
  
