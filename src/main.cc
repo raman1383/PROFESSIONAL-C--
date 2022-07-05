@@ -75,5 +75,4 @@ int main()
 		int m_numberOfMiles;
 		bool m_hasEliteSuperRewardsStatus;
 	};
-	`
 }
